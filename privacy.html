@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for Vegas X Studio mobile games.">
+    <meta name="theme-color" content="#080912">
+    <title>Privacy Policy | Vegas X Studio</title>
+    <style>
+        :root {
+            color-scheme: dark;
+            --bg: #080912;
+            --panel: #101222;
+            --text: #f5f6ff;
+            --muted: #a6a9c2;
+            --blue: #48c8ff;
+            --purple: #9b6cff;
+            --line: rgba(255,255,255,.1);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            min-width: 320px;
+            background: radial-gradient(ellipse at 80% 12%, rgba(119, 73, 255, .16), transparent 34rem), radial-gradient(ellipse at 12% 38%, rgba(37, 174, 255, .10), transparent 30rem), var(--bg);
+            color: var(--text);
+            font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            line-height: 1.6;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .site-header {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            border-bottom: 1px solid var(--line);
+            background: rgba(8, 9, 18, .78);
+            backdrop-filter: blur(16px);
+        }
+
+        .nav-wrap {
+            width: min(1120px, calc(100% - 48px));
+            min-height: 76px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
+        }
+
+        .brand {
+            display: inline-flex;
+            align-items: center;
+            gap: 11px;
+            font-size: 1.05rem;
+            font-weight: 800;
+            letter-spacing: .09em;
+            white-space: nowrap;
+        }
+
+        .brand-mark {
+            display: grid;
+            place-items: center;
+            width: 34px;
+            height: 34px;
+            border-radius: 10px;
+            color: #080912;
+            background: linear-gradient(135deg, var(--blue), var(--purple));
+            box-shadow: 0 0 24px rgba(72, 200, 255, .24);
+            font-size: .95rem;
+            font-weight: 900;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 34px;
+        }
+
+            .nav-links a {
+                color: var(--muted);
+                font-size: .92rem;
+                transition: color .2s ease;
+            }
+
+                .nav-links a:hover, .nav-links a:focus-visible {
+                    color: var(--blue);
+                }
+
+        main {
+            overflow: hidden;
+        }
+
+        /* Privacy Page Specific Styles */
+        .privacy-page {
+            width: min(820px, calc(100% - 48px));
+            margin: 0 auto;
+            padding: 88px 0 104px;
+        }
+
+        .privacy-intro {
+            max-width: 650px;
+            margin-bottom: 38px;
+        }
+
+            .privacy-intro h1 {
+                margin: 0;
+                font-size: clamp(2.8rem, 7vw, 4.5rem);
+                line-height: 1.02;
+                letter-spacing: -.06em;
+            }
+
+            .privacy-intro p:not(.section-label) {
+                max-width: 580px;
+                margin: 20px 0 0;
+                color: var(--muted);
+                font-size: 1.05rem;
+            }
+
+        .privacy-content {
+            background: linear-gradient(145deg, rgba(20, 23, 43, .94), rgba(12, 14, 27, .96));
+            border: 1px solid var(--line);
+            border-radius: 16px;
+            padding: clamp(22px, 5vw, 42px);
+            box-shadow: 0 24px 80px rgba(0, 0, 0, .24);
+        }
+
+            .privacy-content h2 {
+                color: var(--blue);
+                font-size: 1.4rem;
+                margin: 32px 0 16px;
+                letter-spacing: -.02em;
+            }
+
+                .privacy-content h2:first-of-type {
+                    margin-top: 0;
+                }
+
+            .privacy-content p {
+                color: var(--muted);
+                margin: 0 0 16px;
+                font-size: 1rem;
+            }
+
+            .privacy-content ul {
+                color: var(--muted);
+                margin: 0 0 20px;
+                padding-left: 20px;
+            }
+
+            .privacy-content li {
+                margin-bottom: 8px;
+            }
+
+            .privacy-content strong {
+                color: #e7e9ff;
+            }
+
+            .privacy-content a {
+                color: var(--blue);
+                font-weight: 600;
+            }
+
+        footer {
+            border-top: 1px solid var(--line);
+            padding: 24px;
+            color: #777b98;
+            text-align: center;
+            font-size: .82rem;
+        }
+
+        @media (max-width: 700px) {
+            .nav-wrap {
+                width: min(100% - 36px, 1120px);
+                min-height: 68px;
+            }
+
+            .brand {
+                font-size: .9rem;
+                letter-spacing: .06em;
+            }
+
+            .brand-mark {
+                width: 30px;
+                height: 30px;
+            }
+
+            .nav-links {
+                gap: 17px;
+            }
+
+                .nav-links a {
+                    font-size: .82rem;
+                }
+
+            .privacy-page {
+                width: min(100% - 40px, 820px);
+                padding: 70px 0 84px;
+            }
+        }
+
+        @media (max-width: 390px) {
+            .nav-wrap {
+                gap: 12px;
+            }
+
+            .brand {
+                font-size: .78rem;
+            }
+
+            .nav-links {
+                gap: 11px;
+            }
+
+                .nav-links a {
+                    font-size: .76rem;
+                }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav-wrap" aria-label="Main navigation">
+            <a class="brand" href="index.html#home" aria-label="Vegas X Studio home">
+                <span class="brand-mark" aria-hidden="true">V</span>
+                <span>VEGAS X STUDIO</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html#home">Home</a>
+                <a href="contact.html">Contact</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="privacy-page">
+            <div class="privacy-intro">
+                <p class="section-label">Legal</p>
+                <h1>Privacy<br><span class="gradient-text">Policy</span></h1>
+                <p>Effective Date: November 18, 2026</p>
+            </div>
+
+            <div class="privacy-content">
+                <p>This Privacy Policy applies to all mobile games, applications, and related services developed and published by <strong>VEGAS X LIMITED</strong> (trading as "Vegas X Studio", "we", "us", or "our"). This includes all our current and future titles distributed globally through the Google Play Store, the Apple App Store, and other platforms (collectively referred to as our "Games" or "Services").</p>
+
+                <h2>Information Collection and Use</h2>
+                <p>Our Games collect information when you download, access, and use them. This information may include:</p>
+                <ul>
+                    <li>Your device's Internet Protocol (IP) address</li>
+                    <li>The pages or screens of the Games that you visit, the time and date of your visit, and the time spent on those pages</li>
+                    <li>The total time spent playing the Games</li>
+                    <li>Your mobile operating system (iOS or Android) and device type</li>
+                </ul>
+                <p>For a better experience while using our Games, we may require you to provide us with certain personally identifiable information. The information we request will be retained and used as described in this privacy policy.</p>
+
+                <h2>Cookies and Tracking Technologies</h2>
+                <p>Our Games or their third-party SDKs (Software Development Kits) may use cookies, SDKs, pixels, and similar technologies to support functionality, analytics, or service delivery. Where required by applicable law, we will obtain consent before using non-essential tracking technologies.</p>
+
+                <h2>Third-Party Access</h2>
+                <p>Only aggregated, anonymized data is periodically transmitted to external services to aid us in improving our Games and services. We may share your information with third parties in the ways described in this policy, including:</p>
+                <ul>
+                    <li>As required by law, such as to comply with a subpoena or similar legal process.</li>
+                    <li>When we believe in good faith that disclosure is necessary to protect our rights, protect your safety or the safety of others, investigate fraud, or respond to a government request.</li>
+                    <li>With trusted service providers (such as analytics or ad networks) who work on our behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.</li>
+                </ul>
+
+                <h2>International Data Transfers</h2>
+                <p>We or our third-party service providers may transfer personal data to countries outside your country of residence, including outside the European Economic Area (EEA). Where applicable law requires safeguards for international transfers, we will use appropriate mechanisms, including:</p>
+                <ul>
+                    <li>Standard Contractual Clauses (SCCs) approved by the European Commission.</li>
+                    <li>Adequacy decisions or other legally recognized transfer mechanisms.</li>
+                    <li>Your consent, where required and legally permitted.</li>
+                </ul>
+                <p>Data protection laws in other countries may differ from those in your jurisdiction. Where required by law, we will apply appropriate safeguards and obtain any consent required for the transfer.</p>
+
+                <h2>Your Rights & Opt-Out</h2>
+                <p>You may request access to, correction of, or deletion of your personal data held by us. To exercise these rights, or to withdraw consent where processing is based on consent, contact us at <a href="mailto:admin@vegasx.studio">admin@vegasx.studio</a>.</p>
+                <p>You can stop further collection of information from your mobile device by uninstalling the Games. Uninstalling will stop the Games from collecting data from your device, but it does not automatically delete information that has already been transmitted to us or to third parties.</p>
+                <p>We may use the information you provide to send you important information, required notices, and, where permitted by law, marketing communications.</p>
+
+                <h2>Your California Privacy Rights (CCPA/CPRA)</h2>
+                <p>If you are a California resident, you have the right to know what personal information is collected, the right to delete personal information, the right to opt out of the sale or sharing of personal information, and the right to non-discrimination for exercising these rights. To exercise your CCPA/CPRA rights, contact us at <a href="mailto:admin@vegasx.studio">admin@vegasx.studio</a>.</p>
+
+                <h2>Data Retention Policy</h2>
+                <p>We retain personal data based on its necessity for the stated purposes:</p>
+                <ul>
+                    <li><strong>User Provided Data:</strong> Retained for the duration of your use of the Games plus 12 months thereafter, unless longer retention is required by law.</li>
+                    <li><strong>Automatically Collected Data:</strong> Retained for up to 24 months from collection, unless longer retention is required for legal compliance.</li>
+                    <li><strong>Aggregated and Anonymized Data:</strong> Retained indefinitely as it no longer identifies you.</li>
+                    <li><strong>Data required for legal compliance:</strong> Retained as long as required by applicable law.</li>
+                </ul>
+                <p>You may request deletion of your personal data, subject to any legal obligation to retain it. Please note that some User Provided Data may be required for the Games to function properly.</p>
+
+                <h2>Children's Privacy</h2>
+                <p>Our Games are not intended for children under 18 years of age, or such higher age as required by applicable law. We do not knowingly solicit data from children or market our Games to them.</p>
+                <p>We encourage all children to never submit any personally identifiable information through the Games. We encourage parents and legal guardians to monitor their children's Internet usage and to help enforce this Policy by instructing their children never to provide personally identifiable information through the Games without their permission. If you have reason to believe that a child has provided personally identifiable information to us, please contact us so that we can take the necessary actions. If you are under 18 years of age, your parent or guardian must provide consent on your behalf where permitted by law.</p>
+
+                <h2>Security & Data Breach Notification</h2>
+                <p>We are concerned about safeguarding the confidentiality of your information. We provide physical, electronic, and procedural safeguards to protect the information we process and maintain.</p>
+                <p>If a data breach occurs that affects your personal data, we will notify you in accordance with applicable legal requirements, including, where required, providing information about the nature of the breach and the steps being taken to address it.</p>
+
+                <h2>Changes to This Policy</h2>
+                <p>We may update this Privacy Policy from time to time. We will notify you of material changes by posting the updated Privacy Policy with a new effective date. Where required by law, we will seek your consent to material changes before they take effect. Previous versions of this Privacy Policy will be maintained and made available upon request.</p>
+
+                <h2>Your Consent</h2>
+                <p>Where processing is based on consent, you provide that consent by affirmatively opting in to the relevant feature or action. You may withdraw consent at any time without affecting processing carried out before withdrawal. Processing based on other lawful bases is carried out as described above.</p>
+
+                <h2>Contact Us</h2>
+                <p>If you have any questions regarding privacy while using our Games, or have questions about our practices, please contact us via email at <a href="mailto:admin@vegasx.studio">admin@vegasx.studio</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer id="privacy">
+        <span>© <span id="year">2026</span> Vegas X Studio. All rights reserved.</span>
+        <span> · </span>
+        <a href="privacy.html">Privacy Policy</a>
+    </footer>
+</body>
+</html>
